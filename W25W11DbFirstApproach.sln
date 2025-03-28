@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W25W11DbFirstApproach", "W25W11DbFirstApproach\W25W11DbFirstApproach.csproj", "{0FFD21EB-CCCC-4AD7-8DB7-55F8F82ACCE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FFD21EB-CCCC-4AD7-8DB7-55F8F82ACCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFD21EB-CCCC-4AD7-8DB7-55F8F82ACCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFD21EB-CCCC-4AD7-8DB7-55F8F82ACCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFD21EB-CCCC-4AD7-8DB7-55F8F82ACCE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {143592EF-665F-45B4-B151-A42D72938EF8}
+	EndGlobalSection
+EndGlobal
