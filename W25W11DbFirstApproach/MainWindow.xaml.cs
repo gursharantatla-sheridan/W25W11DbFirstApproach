@@ -20,9 +20,34 @@ namespace W25W11DbFirstApproach
     /// </summary>
     public partial class MainWindow : Window
     {
+        // create an object of the context class
+        SchoolDBEntities db = new SchoolDBEntities();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            LoadStudents();
+            LoadStandardsInCombobox();
+        }
+
+        public void LoadStudents()
+        {
+            var students = db.Students.ToList();
+            grdStudents.ItemsSource = students;
+        }
+
+        public void LoadStandardsInCombobox()
+        {
+            var standards = db.Standards.ToList();
+            cmbStandard.ItemsSource = standards;
+            cmbStandard.DisplayMemberPath = "StandardName";
+            cmbStandard.SelectedValuePath = "StandardId";
+        }
+
+        private void btnLoadStudents_Click(object sender, RoutedEventArgs e)
+        {
+            LoadStudents();
         }
     }
 }
